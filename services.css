@@ -1,0 +1,151 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar{width:1550px;
+  position:fixed;
+background-color:#d3d3d32e;
+z-index: 999}
+.navbar a{color:black !important}
+.navbar a:hover{
+  transform:scale(0.8)
+  }
+.main {
+  gap: 30px;
+  padding: 200px 190px 200px 200px;
+  background-color: whitesmoke;
+  flex-shrink: 1;
+  flex-wrap:wrap;
+  width:100%;
+}
+.main .content{width:50%;
+flex-grow:1}
+.content p {
+  text-align: justify;
+}
+.form {
+  width: 250px;
+}
+.form input,
+textarea {
+  border-radius: 18px;
+  border: none;
+  background-color: lightgrey;
+  padding: 10px 10px;
+  width: 350px;
+  margin: 10px 0px;
+}
+form button {
+  padding: 10px;
+  color: white;
+  width: 300px;
+  background-color: #f6b103;
+  border: none;
+  margin: 0px 25px;
+  border-radius: 20px;
+}
+.bblock {
+  /* width: 1550px; */
+  height: 200px;
+  background-color: #3c0404;
+}
+.specials {
+  padding: 50px 160px;
+  gap: 30px;
+  
+}
+.spbox1 p {
+  font-size: 20px;
+}
+.spbox {
+  height: 235px;
+  width: 360px;
+  padding: 10px;
+  background-color: rgb(2, 2, 70);
+}
+.spbox h2 {
+  background-color: white;
+  color: gold;
+  text-align: center;
+  padding: 8px 0px;
+}
+table {
+  margin: 10px 200px;
+}
+table,
+td {
+  border-collapse: collapse;
+  padding: 5px 8px;
+  border: 1px solid black;
+}
+.table h2 {
+  margin: 0px 200px;
+}
+.table tr:nth-child(odd) {
+  background-color: white;
+  color: gray;
+}
+.table tr:nth-child(even) {
+  background-color: lightgrey;
+  color: black;
+}
+table td p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.spbox h3 {
+  color: white;
+  padding: 0px 30px;
+  text-align: center;
+}
+.spbox button {
+  background-color: gold;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 10px;
+  margin-left: 120px;
+}
+/*---------footer-----------*/
+footer {
+  /* background-image: url("https://vrcgroup.in/wp-content/uploads/2023/06/civil-contractor.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; */
+        flex-wrap:wrap;
+  background-color: black;
+  opacity: 1;
+  padding: 50px 150px;
+  gap: 40px;
+}
+section i {
+  color: red;
+}
+.links p i {
+  color: red;
+}
+footer h4 {
+  color: white;
+}
+footer section p {
+  color: lightgrey;
+  font-size: 20px;
+}
+.sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.links p {
+  color: lightgray;
+}
+.cont p {
+  color: lightgray;
+  width: 300px;
+}
+
+@media only screen and (min-width:300px) and (max-width:1300px){
+    .specials{display: block !important; }
+    }

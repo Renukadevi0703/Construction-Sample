@@ -1,0 +1,95 @@
+*{margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
+    .overall{background-color: saddlebrown}
+    .container-fluid img{
+        /* opacity:1 */
+    
+    }
+    .navbar{width:1550px;
+        position:fixed;
+    background-color: #d3d3d32e;
+    z-index: 999;
+  }
+  .collapse{color:white !important;}
+    .content{padding-top:140px}
+    aside h1{
+    text-align: center;
+padding:30px;
+ }
+ aside h1 span{background-color:goldenrod;
+padding:10px 20px;
+border-radius:10px}
+
+aside p{text-align: center;
+font-size:25px;
+}
+aside h1~p span{background-color: sandybrown;
+padding:10px 20px;
+border-radius: 30px}
+
+.images{display:flex;
+    justify-content: center;
+    align-items: center;
+gap:15px;
+margin:50px;
+
+}
+.images section{width:20vw;
+height:300px;
+transition: all 3s;
+position: relative;
+overflow: hidden;}
+.images section .over{width:20vw;
+  height:300px;
+  background-color:#ff7f5080;
+border-radius: 10px;
+transition:0.4s;
+padding:10px;
+color:white
+}
+.images section .over p{font-size: 15px}
+section:hover .over{position:absolute;
+  transform:translateY(-300px);
+  
+}
+img{border-radius:10px;
+  border:4px solid white;
+}
+footer {
+    /* background-image: url("https://vrcgroup.in/wp-content/uploads/2023/06/civil-contractor.jpg");
+          background-repeat: no-repeat;
+          background-size: cover; */
+          flex-wrap:wrap;
+    background-color: black;
+    opacity: 1;
+    padding: 50px 150px;
+    gap: 40px;
+  }
+  section i {
+    color: red;
+  }
+  .links p i {
+    color: red;
+  }
+  footer h4 {
+    color: white;
+  }
+  footer section p {
+    color: lightgrey;
+    font-size: 20px;
+  }
+  .sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .links p {
+    color: lightgray;
+  }
+  .cont p {
+    color: lightgray;
+    width: 300px;
+  }

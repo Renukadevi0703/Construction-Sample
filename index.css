@@ -1,0 +1,257 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 1550px;
+  position: fixed;
+  background-color: #d3d3d32e;
+  z-index: 999;
+  /* flex-wrap:wrap;} */
+}
+.navbar a {
+  color: white !important;
+}
+.navbar a:hover {
+  transform: scale(0.8);
+}
+
+.maininside {
+  animation: maininside 10s infinite ease-in-out;
+  width: 98.9vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  text-align: center;
+  background-image: url("./house1 (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+
+  /* animation-fill-mode: forwards; */
+  /* animation-direction:alternate; */
+}
+
+@keyframes maininside {
+  0% {
+    background-image: url("./house1 (1).jpg");
+  }
+  50% {
+    background-image: url("./house1\ \(2\).jpg");
+  }
+  100% {
+    background-image: url("./house1\ \(3\).jpg");
+  }
+}
+
+.maininside p {
+  font-size: 20px;
+  color: white;
+  display: inline;
+  text-shadow: 2px 2px black;
+}
+
+.maininside h1 {
+  font-size: 80px;
+  text-shadow: 3px 3px black;
+}
+.maininside button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+}
+.quote {
+  width: 98.99vw;
+  flex-wrap: wrap;
+}
+.core {
+  background-image: url(https://image.slidesdocs.com/responsive-images/background/silk-scarf-blue-purple-golden-yellow-tricolor-powerpoint-background_362ae9d60c__960_540.jpg);
+  background-size: cover;
+  flex-wrap: wrap;
+}
+.core h1 {
+  color: white;
+  margin-left: 600px;
+}
+.coremain {
+  gap: 40px;
+  margin: 20px 150px 0px 200px;
+}
+.box1 {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  padding: 30px 10px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  background-color: pink !important;
+}
+
+.box3 {
+  padding: 30px 10px 10px 10px;
+}
+.core .box1 h3 {
+  margin-top: 20px;
+  color: steelblue;
+}
+.core .box1 img {
+  width: 50px;
+  height: 50px;
+}
+
+.box1:hover {
+  box-shadow: 3px 3px skyblue;
+}
+
+.about {
+  /* margin:auto; */
+  /* widows: 97.89; */
+  background-image: url(https://plus.unsplash.com/premium_photo-1681691912442-68c4179c530c?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29uc3RydWN0aW9uJTIwc2l0ZXxlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  position: relative;
+  flex-wrap: wrap;
+  height: 85vh;
+}
+.fullabout {
+  position: absolute;
+  background-color: salmon;
+  position: relative;
+  padding-top: 40px;
+  min-height: 85vh;
+}
+.fullabout h2 {
+  color: blue;
+  text-align: center;
+
+  text-shadow: 3px 3px black;
+  width: 98.97vw;
+  overflow: hidden;
+}
+.col1 h2 {
+  color: steelblue;
+}
+.col2 {
+  gap: 50px;
+  padding: 20px 0px 20px 200px;
+}
+.col2:nth-child(1) .col1 {
+  text-align: right;
+  width: 33vw;
+}
+
+.col2:nth-child(2) .col1 {
+  text-align: left;
+  width: 33vw;
+}
+.col1 h3 {
+  color: steelblue;
+}
+.para {
+  animation: parag  linear;
+  animation: delay 4s;
+  animation-timeline: view();
+  overflow: hidden;
+}
+@keyframes parag {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(10%);
+  }
+}
+.para2 {
+  animation: para2 backwards linear;
+  animation: delay 4s;
+  
+  animation-timeline: view();
+}
+@keyframes para2 {
+  0% {
+    transform: translateX(40%);
+  }
+  100% {
+    transform: translateX(20%);
+  }
+}
+/* .about .para{width:1050px} */
+.para span {
+  color: rgb(238, 26, 174);
+}
+.rewards {
+  background-color: rgb(5, 5, 61);
+  padding: 40px 350px;
+  gap: 80px;
+  text-align: center;
+}
+.rewards1 h1 {
+  font-size: 60px;
+  color: white;
+}
+.rewards1 p {
+  color: gold;
+}
+.materials {
+  text-align: center;
+  background-image: url(https://i.pinimg.com/736x/3d/0a/22/3d0a22b0cf90a552108054de1cc635de.jpg);
+}
+
+.mate section {
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column */
+  margin-bottom: 100px;
+}
+.materials p {
+  font-size: 30px;
+  color: sienna;
+  padding-top: 60px;
+}
+.mate {
+  gap: 40px;
+  padding: 30px 200px;
+}
+footer {
+  background-color: black;
+  opacity: 1;
+  padding: 50px 150px;
+  gap: 40px;
+}
+section i {
+  color: red;
+}
+.links p i {
+  color: red;
+}
+footer h4 {
+  color: white;
+}
+footer section p {
+  color: lightgrey;
+  font-size: 20px;
+}
+.sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.links p {
+  color: lightgray;
+}
+.cont p {
+  color: lightgray;
+  width: 300px;
+}
+@media only screen and(min-width:300px) and (max-width: 600px) {
+    
